@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 class ShapeTest {
 
     @Test
-    @Disabled("It's not implemented yet")
     void assertAreaComputation() {
+        Shape shape = new Rectangular(4, 5);
+        assert shape.computeArea().equals(20);
     }
 }
