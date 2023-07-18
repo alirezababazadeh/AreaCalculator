@@ -2,8 +2,8 @@ package edu.sharif;
 
 public class Rectangular implements Shape {
 
-    private int width;
-    private int height;
+    private int width = 1;
+    private int height = 2;
 
     public Rectangular() {
     }
